@@ -2,14 +2,14 @@ const Thought = require('./models/thought'); // replace with the actual path to 
 
 const seedThoughts = async () => {
  const thought1 = new Thought({
-   thoughtText: 'This is a thought from user1',
-   username: 'user1'
+   thoughtText: 'This is clearly an original thought',
+   username: 'Brad'
    // add other fields as needed
  });
 
  const thought2 = new Thought({
-   thoughtText: 'This is a thought from user2',
-   username: 'user2'
+   thoughtText: 'I can\'t believe someone else has already thought this',
+   username: 'Chad'
    // add other fields as needed
  });
 
